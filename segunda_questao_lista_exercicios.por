@@ -1,7 +1,9 @@
-programa {
+programa
+ {
 	
-	funcao inicio() {
-	//declarando variáveis
+	funcao inicio()
+ {
+	//declarando variaveis
 	cadeia nome, sexo, estadoCivil, tempoCasada
 
 	//solicitando dados
@@ -9,10 +11,9 @@ programa {
 	leia(nome)
 	escreva("\nDigite seu sexo: ")
 	leia(sexo)
-	escreva("\nDigite seu estado civil dê um duplo enter: ")
+	escreva("\nDigite seu estado civil: ")
 	leia(estadoCivil)
 	
-	leia(tempoCasada)
 	//ESTRUTURA DE DADOS E INFORMANDO DADOS
 	se (sexo == "feminino" e estadoCivil == "casada") {
 		escreva("Qual seu tempo de casada: ")
@@ -21,7 +22,10 @@ programa {
 	escreva("\nNome: ",nome)
 	escreva("\nSexo: ",sexo)
 	escreva("\nEstado Civil: ",estadoCivil)
-	escreva("\nTempo de casada: ",tempoCasada)
+
+	se (sexo == "feminino" e estadoCivil == "casada") {
+		escreva("\nTempo de casada: ",tempoCasada)
+	}
 	
 	}
 }
@@ -30,7 +34,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 313; 
+ * @POSICAO-CURSOR = 648; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
